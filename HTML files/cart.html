@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../CSS files/styles.css">
+    <title>MyFreshVeggies Shop</title>
+</head>
+
+<body>
+    <div class="header cart-header">
+        <nav>
+            <a href="../index.html"><img class="logo" src="../images/logo3.png"></a>
+            <input type="text" id="search" placeholder="Search...">
+            <button class="btn search"><i class="fa fa-fw fa-search"></i></button>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="../index.html"><i class="fa fa-fw fa-home"> </i>Home</a></li>
+                    <li><a href="./cart.html"><i class="fa fa-cart-plus"> </i>Cart</a></li>
+                    <li><a href="./signin.html"><i class="fa fa-fw fa-user"> </i>Login</a></li>
+
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="cart">
+            <div class="left_box">
+                <div class="shipping-details signup-box">
+                    <h3 style="font-size: 35px;">Shipping Details: </h3>
+                    <div class="signup-input-fields">
+                        <div class="input-field">Full Name: </div>
+                        <input type="text" placeholder="John M. Done"><br>
+                        <div class="input-field">Email: </div>
+                        <input type="text" placeholder="john@example.com"><br>
+                        <div class="input-field">Address: </div>
+                        <input type="text" placeholder="542 W 15th Street"><br>
+                        <div class="input-field">City: </div>
+                        <input type="text" placeholder="Phnom Penh">
+
+                        <div class="payment">
+                            <br>
+                            <h3>Payment:</h3>
+                            <form action="">
+                                  <input type="radio" name="fav_language" value="HTML">Cash on Delivery<br>
+                                  <input type="radio" name="fav_language" value="CSS">Debit Card<br>
+                                  <input type="radio" name="fav_language" value="JavaScript">UPI
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="right_box">
+                <div class="items">
+                    <img class="carrot" src="../images/carrot.jpg" alt="Image1">
+                </div>
+                <div class="price">
+                    <h2 class="product-qty">Quantity: 1kg</h2>
+                    <h2 class="product-price">₹40</h2>
+                </div>
+                <div class="cart-pay-btn shop-button"><a href="#">Pay and Confirm!</a></div>
+            </div>
+            
+        </div>
+    
+    </div>
+</body>
+
+</html>
